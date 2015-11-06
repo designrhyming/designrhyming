@@ -46,9 +46,7 @@
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
+        background-color: $sand;
         text-align: right;
 
         .menu-icon {
@@ -65,7 +63,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $pink;
                 }
             }
         }
@@ -100,6 +98,8 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background-color: $grey;
+    color: $sand;
 }
 
 .footer-heading {
@@ -111,6 +111,7 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
+    color: $sand;
 }
 
 .footer-col-wrapper {
@@ -124,6 +125,7 @@
     float: left;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
+    color: $sand;
 }
 
 .footer-col-1 {
