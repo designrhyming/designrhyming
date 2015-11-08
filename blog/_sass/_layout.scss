@@ -2,9 +2,10 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 5px solid $pink;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    padding: 5px 0 5px 0;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -44,7 +45,7 @@
 
     @include media-query($on-palm) {
         position: absolute;
-        top: 9px;
+        top: 15px;
         right: $spacing-unit / 2;
         background-color: $sand;
         text-align: right;
@@ -175,10 +176,6 @@
     min-height: 60vh;
 }
 
-.page-heading {
-    font-size: 20px;
-}
-
 .post-list {
     margin-left: 0;
     list-style: none;
@@ -195,7 +192,6 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
 }
 
 

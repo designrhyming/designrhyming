@@ -14,7 +14,8 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    font-family: $base-font-family;
+    font-size: 16px;
     color: $text-color;
     background-color: $sand;
     -webkit-text-size-adjust: 100%;
@@ -24,20 +25,6 @@ body {
     font-feature-settings: "kern" 1;
     font-kerning: normal;
 }
-
-
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
-}
-
-
 
 /**
  * Images
@@ -76,30 +63,20 @@ li {
     }
 }
 
-
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
-}
-
-
-
 /**
  * Links
  */
 a {
-    color: $teal;
+    color: $darkteal;
     text-decoration: none;
 
     &:visited {
-        color: darken($teal, 15%);
+        color: $darkteal;
     }
 
     &:hover {
         color: $darkteal;
+        font-weight: bold;
         text-decoration: underline;
     }
 }
@@ -156,8 +133,7 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width: 900px;
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
