@@ -11,6 +11,12 @@
     position: relative;
 }
 
+.site-banner {
+    width: 100%;
+    background-color: $teal;
+    padding: 5em 0 5em 0;
+}
+
 .site-title {
     font-size: 26px;
     font-weight: 300;
@@ -21,7 +27,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $darkteal;
     }
 }
 
