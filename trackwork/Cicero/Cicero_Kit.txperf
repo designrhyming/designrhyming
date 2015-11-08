@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tx:performance
+	xmlns:tx="http://www.tx16wx.com/2.0/performance"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tx16wx.com/2.0/performance performance.xsd"
+	tx:created-by="20401"
+	tx:compat="2400"
+	tx:name="Cicero_Kit"
+	>
+	<tx:slot tx:name="Ch01" tx:channel="0" tx:program="New Program.txprog" tx:output="S 1+2">
+		<tx:amp tx:value="1.00"/>
+		<tx:pan tx:value="0.00"/>
+		<tx:send/>
+		<tx:send/>
+		<tx:send/>
+	</tx:slot>
+</tx:performance>
