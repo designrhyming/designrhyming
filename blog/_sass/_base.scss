@@ -1,16 +1,4 @@
 /**
- * Reset some basic elements
- */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
-}
-
-
-
-/**
  * Basic styling
  */
 body {
@@ -24,6 +12,12 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    margin-left: 0;
 }
 
 /**
@@ -47,20 +41,17 @@ figcaption {
     font-size: $small-font-size;
 }
 
-
-
-/**
- * Lists
- */
 ul, ol {
-    margin-left: $spacing-unit;
+    margin-bottom: 0;
+    padding-left: 1em;
+    list-style-type: none;
 }
 
-li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-    }
+li:before {
+    content: "• ";
+    font-family:"Arial Black";
+    font-size: $small-font-size;
+    color: $pink;
 }
 
 /**

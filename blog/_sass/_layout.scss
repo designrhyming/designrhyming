@@ -178,16 +178,27 @@
 
 .post-list {
     margin-left: 0;
-    list-style: none;
+    list-style-type: none;
+    padding-left: 0;
+
+    h4 {
+        margin-bottom: .25em;
+    }
 
     > li {
         margin-bottom: $spacing-unit;
+        list-style-type: none;
     }
+}
+
+.post-list-item:before, .site-footer li:before {
+    content: "";
 }
 
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    font-style: italic;
 }
 
 .post-link {
@@ -204,9 +215,9 @@
 }
 
 .post-title {
-    font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    color: $teal;
 
     @include media-query($on-laptop) {
         font-size: 36px;
