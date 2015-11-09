@@ -314,8 +314,8 @@ quote {
 
 .post-meta {
   font-size: 0.75em;
-  color: #CACCCC;
-  font-style: italic; }
+  color: #002B43;
+  font-weight: bolder; }
 
 .post-link, .post-link:visited {
   display: block;
@@ -334,6 +334,15 @@ quote {
   @media screen and (max-width: 800px) {
     .post-title {
       font-size: 36px; } }
+
+.post-excitement {
+  display: block;
+  color: #99E000;
+  font-style: initial; }
+
+.post-excitement-text {
+  color: #002B43;
+  font-style: initial; }
 
 .post-content {
   margin-bottom: 30px; }

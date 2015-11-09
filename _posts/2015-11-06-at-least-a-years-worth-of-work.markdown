@@ -2,6 +2,7 @@
 layout: post
 title:  "At Least a Year's Worth of Work"
 date:   2015-11-06 04:07:15 -0600
+excitement: ★ ★ ★ ★ ★
 ---
 Today is the beginning of a large body of work that I'm setting out to accomplish over the next year, maybe longer. Actually, I'm certain it'll take at least a year and a half.
 

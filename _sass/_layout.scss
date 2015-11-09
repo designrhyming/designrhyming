@@ -203,8 +203,8 @@
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey;
-    font-style: italic;
+    color: $darkblue;
+    font-weight: bolder;
 }
 
 .post-link, .post-link:visited {
@@ -229,6 +229,17 @@
     @include media-query($on-laptop) {
         font-size: 36px;
     }
+}
+
+.post-excitement {
+    display: block;
+    color: $lime;
+    font-style: initial;
+}
+
+.post-excitement-text {
+    color: $darkblue;
+    font-style: initial;
 }
 
 .post-content {
