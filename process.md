@@ -11,7 +11,8 @@ permalink: /process/
   - Framing the user problem  
   - Research strategy  
   - How to *test* music    
-  - Approach to reiteration  
+  - Approach to reiteration
+  - Digital artifacts
 
 #### Full Stack Music  
   - Making a beat  
@@ -24,4 +25,4 @@ permalink: /process/
 #### Documenting the Process  
   - Jekyll  
   - Guard and Guardfiles  
-  - GH pages    
+  - GH pages
