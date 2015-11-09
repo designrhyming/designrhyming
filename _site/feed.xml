@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design</title>
+    <description>Design Rhyming is project created by Randy Tolentino.
+</description>
+    <link>http://designrhyming.com/</link>
+    <atom:link href="http://designrhyming.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 08 Nov 2015 19:44:36 -0600</pubDate>
+    <lastBuildDate>Sun, 08 Nov 2015 19:44:36 -0600</lastBuildDate>
+    <generator>Jekyll v3.0.0</generator>
+    
+      <item>
+        <title>The Project Infrastructure</title>
+        <description>
+</description>
+        <pubDate>Sun, 08 Nov 2015 04:07:15 -0600</pubDate>
+        <link>http://designrhyming.com/2015/11/08/infrastructure.html</link>
+        <guid isPermaLink="true">http://designrhyming.com/2015/11/08/infrastructure.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>At Least a Year&#39;s Worth of Work</title>
+        <description>&lt;p&gt;Today is the beginning of a large body of work that I’m setting out to accomplish over the next year, maybe longer. Actually, I’m certain it’ll take at least a year and a half.&lt;/p&gt;
+
+&lt;p&gt;At this moment, I’m trying to organize some type of framework in which I will work within. More specifically, gather and note everything that I’ll need, in order to get this project up and running. At the same time, I also have to be mindful of some tools and resources I might need in the months to come.&lt;/p&gt;
+
+&lt;p&gt;WHat’s exciting is that this immediately gives me a ton of shit to research, learn, design, build, and share.&lt;/p&gt;
+
+&lt;p&gt;Updates on the horizon.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Nov 2015 04:07:15 -0600</pubDate>
+        <link>http://designrhyming.com/2015/11/06/at-least-a-years-worth-of-work.html</link>
+        <guid isPermaLink="true">http://designrhyming.com/2015/11/06/at-least-a-years-worth-of-work.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
