@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $pink;
-    border-bottom: 1px solid $grey-color-light;
+    border-top: 5px solid $magenta;
+    border-bottom: 1px solid $grey;
     min-height: 56px;
     padding: 5px 0 5px 0;
 
@@ -13,8 +13,9 @@
 
 .site-banner {
     width: 100%;
-    background-color: $teal;
+    background-color: $darkblue;
     padding: 5em 0 5em 0;
+    border-bottom: 10px solid $lime;
 }
 
 .site-title {
@@ -27,7 +28,7 @@
 
     &,
     &:visited {
-        color: $darkteal;
+        color: $darkblue;
     }
 }
 
@@ -40,7 +41,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: $black;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -53,7 +54,7 @@
         position: absolute;
         top: 15px;
         right: $spacing-unit / 2;
-        background-color: $sand;
+        background-color: $offwhite;
         text-align: right;
 
         .menu-icon {
@@ -70,7 +71,7 @@
                 height: 15px;
 
                 path {
-                    fill: $pink;
+                    fill: $magenta;
                 }
             }
         }
@@ -83,7 +84,6 @@
         &:hover .trigger {
             display: block;
             padding-bottom: 5px;
-            box-shadow: -5px 5px 15px $grey-color-light;
         }
 
         .page-link {
@@ -104,10 +104,10 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-bottom: 5px solid $lime;
     padding: $spacing-unit 0;
     background-color: $grey;
-    color: $sand;
+    color: $darkblue;
 }
 
 .footer-heading {
@@ -119,13 +119,13 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
-    color: $sand;
+    color: $darkblue;
     padding-left: 0;
 }
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $grey;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -134,7 +134,7 @@
     float: left;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
-    color: $sand;
+    color: $darkblue;
 }
 
 .footer-col-1 {
@@ -204,12 +204,13 @@
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: $grey;
     font-style: italic;
 }
 
-.post-link {
+.post-link, .post-link:visited {
     display: block;
+    color: $midteal;
 }
 
 
@@ -224,7 +225,7 @@
 .post-title {
     letter-spacing: -1px;
     line-height: 1;
-    color: $teal;
+    color: $midteal;
 
     @include media-query($on-laptop) {
         font-size: 36px;

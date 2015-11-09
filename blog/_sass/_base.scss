@@ -4,8 +4,8 @@
 body {
     font-family: $base-font-family;
     font-size: 16px;
-    color: $text-color;
-    background-color: $sand;
+    color: $black;
+    background-color: $offwhite;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -51,22 +51,22 @@ li:before {
     content: "• ";
     font-family:"Arial Black";
     font-size: $small-font-size;
-    color: $pink;
+    color: $magenta;
 }
 
 /**
  * Links
  */
 a {
-    color: $darkteal;
+    color: $darkblue;
     text-decoration: none;
 
     &:visited {
-        color: $darkteal;
+        color: $darkblue;
     }
 
     &:hover {
-        color: $darkteal;
+        color: $darkblue;
         font-weight: bold;
     }
 }
@@ -77,8 +77,8 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
+    color: $grey;
+    border-left: 4px solid $grey;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
@@ -97,7 +97,7 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
+    border: 1px solid $grey;
     border-radius: 3px;
     background-color: #eef;
 }
@@ -166,7 +166,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: $grey;
         }
     }
 }

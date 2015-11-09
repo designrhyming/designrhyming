@@ -15,33 +15,26 @@ $spacing-unit:     30px;
 
 $small-font-size: 0.75em;
 
-$text-color:       #181B1D;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Ran Colors
-$pink: #FF7A7A;
-$teal: #72D0C6;
-$midteal: #51A8AC;
-$darkteal: #308091;
-$grey: #B2B2B2;
-$sand: #FFFCF1;
-$overlay: rgba(0, 0, 0, 0.90);
+// Ranc Color Scheme
+$magenta: #FF1C5E;
+$lime: #99E000;
+$midteal: #00CCFF;
+$darkblue: #002B43;
+$yellow: #FFC400;
+$grey: #CACCCC;
+$offwhite: #FBFBFB;
+$black: #262626;
 
 .dark {
-	color: $darkteal;
+    color: $darkblue;
 }
 
 .medium {
-	color: $midteal;
+    color: $midteal;
 }
 
 .light {
-	color: $teal;
+    color: $lime;
 }
 
 // Width of the content area
