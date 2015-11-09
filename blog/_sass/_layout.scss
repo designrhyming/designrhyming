@@ -14,8 +14,8 @@
 .site-banner {
     width: 100%;
     background-color: $darkblue;
-    padding: 5em 0 5em 0;
-    border-bottom: 10px solid $lime;
+    padding: 3em 0 3em 0;
+    border-bottom: 7px solid $lime;
 }
 
 .site-title {
@@ -104,7 +104,6 @@
  * Site footer
  */
 .site-footer {
-    border-bottom: 5px solid $lime;
     padding: $spacing-unit 0;
     background-color: $grey;
     color: $darkblue;
