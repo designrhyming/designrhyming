@@ -13,7 +13,7 @@ email: designrhyming@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Design Rhyming is project created by Randy Tolentino.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://designrhyming.com" # the base hostname & protocol for your site
+url: "localhost:4000" # the base hostname & protocol for your site
 twitter_username: designrhyming
 github_username:  designrhyming
 

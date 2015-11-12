@@ -4,10 +4,10 @@
     <title>Design</title>
     <description>Design Rhyming is project created by Randy Tolentino.
 </description>
-    <link>http://designrhyming.com/</link>
-    <atom:link href="http://designrhyming.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 09 Nov 2015 11:51:44 -0600</pubDate>
-    <lastBuildDate>Mon, 09 Nov 2015 11:51:44 -0600</lastBuildDate>
+    <link>localhost:4000/</link>
+    <atom:link href="localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 11 Nov 2015 20:17:45 -0600</pubDate>
+    <lastBuildDate>Wed, 11 Nov 2015 20:17:45 -0600</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
@@ -33,8 +33,8 @@
 &lt;p&gt;Probably the best aspect of this entire endeavour is that this shit is going to be fun! I can’t tell you how excited I am to dedicate so much thought and effort into areas of interest that I am passionate about.&lt;/p&gt;
 </description>
         <pubDate>Sun, 08 Nov 2015 04:07:15 -0600</pubDate>
-        <link>http://designrhyming.com/2015/11/08/infrastructure.html</link>
-        <guid isPermaLink="true">http://designrhyming.com/2015/11/08/infrastructure.html</guid>
+        <link>localhost:4000/2015/11/08/infrastructure.html</link>
+        <guid isPermaLink="true">localhost:4000/2015/11/08/infrastructure.html</guid>
         
         
       </item>
@@ -52,8 +52,8 @@
 &lt;p&gt;Updates on the horizon.&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Nov 2015 04:07:15 -0600</pubDate>
-        <link>http://designrhyming.com/2015/11/06/at-least-a-years-worth-of-work.html</link>
-        <guid isPermaLink="true">http://designrhyming.com/2015/11/06/at-least-a-years-worth-of-work.html</guid>
+        <link>localhost:4000/2015/11/06/at-least-a-years-worth-of-work.html</link>
+        <guid isPermaLink="true">localhost:4000/2015/11/06/at-least-a-years-worth-of-work.html</guid>
         
         
       </item>
