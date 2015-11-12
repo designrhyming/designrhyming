@@ -14,10 +14,12 @@
 .site-banner {
     width: 100%;
     background-color: $darkblue;
-    padding: 3em 0 3em 0;
     border-bottom: 7px solid $lime;
-    height: 10em;
     overflow: hidden;
+
+    svg {
+        margin-bottom: -5px;
+    }
 }
 
 .site-title {
