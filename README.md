@@ -1,6 +1,6 @@
-#Design Rhyming
+#Rhyme ✕ Design
 
-Welcome to the Design Rhyming project. Design Rhyming is an experimental project that takes the core principles of *Design Thinking* and uses that as a framework in the creation of music - in this case, a hip hop album.
+Welcome to the Rhyme ✕ Design project. Rhyme ✕ Design is an experimental project that takes the core principles of *Design Thinking* and uses that as a framework in the creation of music - in this case, a hip hop album.
 
 ##Full Stack Everything
 
