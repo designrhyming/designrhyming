@@ -6,16 +6,16 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Design
-accent: Rhyming
+title: rhyme
+accent: Xdesign
 author: Randy Tolentino
-email: designrhyming@gmail.com
+email: rhymebydesign@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Design Rhyming is project created by Randy Tolentino.
 
-url: "https://designrhyming.github.io/" # the base hostname & protocol for your site
-twitter_username: designrhyming
-github_username:  designrhyming
+url: "https://rhymebydesign.github.io/" # the base hostname & protocol for your site
+twitter_username: rhymebydesign
+github_username:  rhymebydesign
 
 # Build settings
 markdown: kramdown
