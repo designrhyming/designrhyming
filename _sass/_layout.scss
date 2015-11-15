@@ -156,6 +156,16 @@
     padding-left: 0;
 }
 
+.social-media-list {
+    svg {
+        width: 15px;
+    }
+}
+
+.footer-icon {
+    vertical-align: middle;
+}
+
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey;
