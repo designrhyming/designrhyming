@@ -28,17 +28,18 @@
     }
 
     &--image {
-        float: left;
-        width: 50%;
+        display: inline-block;
+        width: 45%;
         text-align: center;
+        vertical-align: top;
         @include media-query($on-palm) {
             width: 100%
         }
     }
 
     &--description {
-        float: right;
-        width: 50%;
+        display: inline-block;
+        width: 45%;
         
         @include media-query($on-palm) {
             width: 100%
