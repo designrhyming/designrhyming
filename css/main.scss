@@ -58,6 +58,20 @@ $on-laptop:        800px;
     }
 }
 
+@mixin vertical-align() {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-70%);
+}
+
+@mixin clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
