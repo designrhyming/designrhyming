@@ -88,9 +88,6 @@
     }
 
     @include media-query($on-palm) {
-        position: absolute;
-        top: 15px;
-        right: $spacing-unit / 2;
         background-color: $offwhite;
         text-align: right;
 
