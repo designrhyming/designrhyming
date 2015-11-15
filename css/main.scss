@@ -61,7 +61,7 @@ $on-laptop:        800px;
 @mixin vertical-align() {
     position: absolute;
     top: 45%;
-    transform: translateY(-70%);
+    transform: translateY(-60%);
 }
 
 @mixin clearfix {
