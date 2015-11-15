@@ -3,7 +3,6 @@
  */
 .site-header {
     border-top: 5px solid $magenta;
-    border-bottom: 1px solid $grey;
     min-height: 56px;
     padding: 5px 0 5px 0;
 
@@ -13,17 +12,14 @@
 
 .site-banner {
     width: 100%;
-    background-color: $darkblue;
-    border-bottom: 7px solid $lime;
-    overflow: hidden;
-
+    text-align: center;
     svg {
-        margin-bottom: -5px;
+        width: 265px;
     }
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;

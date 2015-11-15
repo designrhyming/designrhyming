@@ -9,13 +9,13 @@
 title: rhyme
 accent: Xdesign
 author: Randy Tolentino
-email: rhymebydesign@gmail.com
+email: rhymexdesign@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Design Rhyming is project created by Randy Tolentino.
+  Rhyme X Design is a project created by Randy Tolentino.
 
-url: "https://rhymebydesign.github.io/" # the base hostname & protocol for your site
-twitter_username: rhymebydesign
-github_username:  rhymebydesign
+url: "https://rhymexdesign.github.io/" # the base hostname & protocol for your site
+twitter_username: rhymexdesign
+github_username:  rhymexdesign
 
 # Build settings
 markdown: kramdown
