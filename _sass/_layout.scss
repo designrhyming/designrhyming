@@ -22,6 +22,12 @@
 .site-banner {
     width: 100%;
     @include vertical-align();
+
+    @include media-query($on-palm) {
+        position: inherit;
+        transform: inherit;
+    }
+
     img {
         width: 265px;
         height: auto;
