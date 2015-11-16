@@ -18,4 +18,4 @@ github_username:  rhymexdesign
 
 # Build settings
 markdown: kramdown
-include: [".htaccess", "_images/"]
+include: [".htaccess", "_images"]
