@@ -139,8 +139,9 @@
  */
 .site-footer {
     padding: $spacing-unit 0;
-    background-color: $grey;
+    background-color: $offwhite;
     color: $black;
+    border-top: 1px dotted $magenta;
 }
 
 .footer-heading {

@@ -8,13 +8,16 @@
 # Site settings
 title: RHYME X DESIGN
 author: Randy Tolentino
-email: rhymexdesign@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Rhyme X Design is a project created by Randy Tolentino.
 
 url: "https://rhymexdesign.github.io/" # the base hostname & protocol for your site
-twitter_username: rhymexdesign
-github_username:  rhymexdesign
+twitter: https://twitter.com/rhymexdesign
+github:  https://github.com/rhymexdesign
+slack:  https://rhymexdesign.slack.com
+email: rhymexdesign@gmail.com
+facebook: https://facebook.com/rhymexdesign
+
 
 # Build settings
 markdown: kramdown
