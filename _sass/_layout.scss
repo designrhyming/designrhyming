@@ -64,8 +64,14 @@
         color: $darkblue;
     }
 
-    svg {
+    img {
         width: 40px;
+        margin-top: 10px;
+        
+        @include media-query($on-palm) {
+            margin-top: 3px;
+            width: 30px;
+        }
     }
 }
 
