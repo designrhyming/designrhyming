@@ -17,6 +17,9 @@
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;    
+    @include media-query($on-palm) {
+        padding-top: 2;        
+    }    
 }
 
 .site-banner {
@@ -29,8 +32,11 @@
     }
 
     img {
-        width: 265px;
+        width: 350px;
         height: auto;
+        @include media-query($on-palm) {
+            width: 200px;
+        }        
     }
 
     &--image {
@@ -38,16 +44,19 @@
         width: 45%;
         vertical-align: top;
         @include media-query($on-palm) {
-            width: 100%
+            width: 100%;
+            text-align: center;
         }
     }
 
     &--description {
         display: inline-block;
         width: 45%;
+        padding: 0 0 0 2em;
         
         @include media-query($on-palm) {
-            width: 100%
+            width: 100%;
+            padding: 0;
         }        
     }
 }
@@ -226,6 +235,10 @@
  */
 .page-content {
     padding: 5em 0 5em 0;
+    &--HOME {
+        padding: 5em 0 5em 0;
+        background: $lightgrey;
+    }
 }
 
 .post-list {
