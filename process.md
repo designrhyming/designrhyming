@@ -4,7 +4,7 @@ title: Process
 permalink: /process/
 ---
 
-###**Things I Had to Learn**  
+###**Things I Had/Have to Learn**  
 
 #### Design Thinking  
   - Revisit core conecpts  

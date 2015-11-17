@@ -5,7 +5,7 @@ date:   2015-11-08 04:07:15 -0600
 excitement: ★ ★ ★ ★ ★
 ---
 
-Alright, so in order to get this project going, a lot of placed into laying down a solid foundation. Because this is such a huge and involved undertaking, I feel like I have to be mindful of certain tools, resources, and systems in place. This is critical because there are so many expected outcomes and artifacts that I expect to have by the end of it, and it would foolish to just sloppily overlook the potential value that could be captured along the way.
+Alright, so in order to get this project going, a lot of effort has to be placed into laying down a solid foundation. Because this is such a huge and involved undertaking, I feel like I have to be mindful of certain tools, resources, and systems in place. This is critical because there are so many expected outcomes and artifacts that I expect to have by the end of it, and it would foolish to just sloppily overlook the potential value that could be captured along the way.
 
 ### What am I expecting by the end of this?
 
