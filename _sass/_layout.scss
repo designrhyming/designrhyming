@@ -173,6 +173,7 @@
     margin-left: 0;
     color: $black;
     padding-left: 0;
+    font-size: 14px;
 }
 
 .social-media-list {
@@ -203,11 +204,13 @@
 }
 
 .footer-col-1, .footer-col-2 {
+    font-size: 14px;
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
     width:         calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
+    font-size: 14px;    
     width: -webkit-calc(30% - (#{$spacing-unit} / 2));
     width:         calc(30% - (#{$spacing-unit} / 2));
 }
