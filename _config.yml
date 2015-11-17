@@ -6,11 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: RHYME X DESIGN
+title: Rhyme by Design
 author: Randy Tolentino
 location: Austin, TX
 description: > # this means to ignore newlines until "baseurl:"
-  Rhyme X Design is a research-driven, experimental hip hop project that uses Design Thinking as a foundation for the creation of dope shit.
+  Rhyme by Design is a research-driven, experimental hip hop project that uses Design Thinking as a foundation for the creation of dope shit.
 
 url: "https://rhymexdesign.github.io/" # the base hostname & protocol for your site
 twitter: https://twitter.com/rhymexdesign
