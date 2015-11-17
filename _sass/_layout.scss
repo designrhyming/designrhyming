@@ -101,6 +101,10 @@
         }
     }
 
+.page-heading {
+    font-weight: bold;
+}
+
     @include media-query($on-palm) {
         background-color: $offwhite;
         text-align: right;
