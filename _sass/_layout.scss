@@ -1,4 +1,15 @@
 /**
+ * Rhyme by Design Logo
+ */
+
+.logo {
+    width: 300px;
+    @include media-query($on-palm) {
+        width: 250px;
+    }
+}
+
+/**
  * Site header
  */
 .site-header {
