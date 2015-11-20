@@ -58,15 +58,15 @@ li:before {
  * Links
  */
 a {
-    color: $darkblue;
+    color: $midteal;
     text-decoration: none;
 
     &:visited {
-        color: $darkblue;
+        color: $midteal;
     }
 
     &:hover {
-        color: $darkblue;
+        color: $midteal;
         font-weight: bold;
     }
 }
