@@ -178,6 +178,18 @@
     margin-bottom: $spacing-unit / 2;
 }
 
+.list-one-thirds {
+    width: 33%;
+    float: left;
+    margin-bottom: 2em;
+    h4 {
+        margin-bottom: 0;
+    }
+    @include media-query($on-palm) {
+        width: 100%;
+    }
+}
+
 .contact-list,
 .social-media-list {
     list-style: none;
