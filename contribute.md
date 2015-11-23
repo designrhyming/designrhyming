@@ -11,7 +11,6 @@ In its present stage, Rhyme by Design is gradually forming a team. Whether you'r
 The Assembly Unit will be the crowd-sourced collective of beat makers. If you're interested in gettin down with the team, you can submit a request to join the Rhyme by Design Slack team!
 
 <div class="contact-form-section">
-  <img class="color-banner" src="https://raw.githubusercontent.com/rhymexdesign/rhymexdesign.github.io/master/_images/color_banner.png">
   <form id="contactform" method="POST">
     <input class="contact-form" type="hidden" name="_next" value="/thanks/" />
     <label class="form-text" for="name">Your name <span class="accent">*</span></label>
