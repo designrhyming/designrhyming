@@ -222,6 +222,14 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 }
 
 
+.thank-you-images {
+    img {
+        display: inline-block;
+        width: 50px;
+    }
+}
+
+
 /**
  * Site footer
  */
