@@ -165,19 +165,28 @@
  * Contact Form
  */
 
+.contact-form-section {
+    margin-top: 2em;
+    padding: 2em;
+    background: $lightgrey;
+}
+
  .contact-form {
     padding: 1em;
     width: 80%;
     font-size: .875em;
     display: block;
     margin: .5em 0 2em 0;
+    font-family: $base-font-family;
  }
 
  .form-text {
     font-size: .875em;
+    font-family: $base-font-family;
  }
 
  .contact-button {
+    font-family: $base-font-family;
     -moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;
     -webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;
     background-color:$magenta;
@@ -194,6 +203,16 @@
 }
 .contact-button:hover {
     background-color:$magenta;
+}
+
+input[type=text], input[type=email], textarea {
+  outline: none;
+  border: 1px solid $grey;
+}
+ 
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+  box-shadow: 0 0 1px $midteal;
+  border: 1px solid $midteal;
 }
 
 
