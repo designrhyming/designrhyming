@@ -169,6 +169,10 @@
     margin-top: 2em;
     padding: 2em;
 }
+ 
+ .color-banner {
+    padding: 2em 0 3em 0;
+ }
 
 #contactform {
     display: block;
@@ -185,16 +189,6 @@
     font-family: $base-font-family;
  }
 
- .form-images {
-    display: block;
-    margin: 0 auto;
-    img {
-        display: inline;
-        width: 50px;
-        margin: 0 1em 2em 0;
-    }
- }
-
  .form-text {
     font-size: .875em;
     font-family: $base-font-family;
@@ -202,11 +196,7 @@
 
  .contact-button {
     font-family: $base-font-family;
-    -moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;
-    -webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;
     background-color:$magenta;
-    -moz-border-radius:6px;
-    -webkit-border-radius:6px;
     border-radius:0;
     border:none;
     display:inline-block;
@@ -217,7 +207,7 @@
     text-decoration:none;
 }
 .contact-button:hover {
-    background-color:$magenta;
+    background-color:#E41551;
 }
 
 input[type=text], input[type=email], textarea {
