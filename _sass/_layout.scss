@@ -168,16 +168,31 @@
 .contact-form-section {
     margin-top: 2em;
     padding: 2em;
-    background: $lightgrey;
+}
+
+#contactform {
+    display: block;
+    margin: 0 auto;
 }
 
  .contact-form {
     padding: 1em;
-    width: 80%;
+    width: 100%;
+    box-sizing: border-box;
     font-size: .875em;
     display: block;
     margin: .5em 0 2em 0;
     font-family: $base-font-family;
+ }
+
+ .form-images {
+    display: block;
+    margin: 0 auto;
+    img {
+        display: inline;
+        width: 50px;
+        margin: 0 1em 2em 0;
+    }
  }
 
  .form-text {
