@@ -177,6 +177,25 @@
     font-size: .875em;
  }
 
+ .contact-button {
+    -moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+    background-color:$magenta;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:0;
+    border:none;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:.875em;
+    padding:6px 24px;
+    text-decoration:none;
+}
+.contact-button:hover {
+    background-color:$magenta;
+}
+
 
 /**
  * Site footer
