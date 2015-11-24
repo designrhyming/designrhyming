@@ -223,10 +223,11 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 
 
 .thank-you-images {
-    padding: 2em 0 0 0;
+    padding: 2em 0 1em 0;
     img {
         display: inline-block;
-        width: 50px;
+        width: 55px;
+        margin-right: 1em;
     }
 }
 
