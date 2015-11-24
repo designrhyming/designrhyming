@@ -6,9 +6,9 @@ permalink: /contribute/
 
 In its present stage, Rhyme by Design is gradually forming a team. Whether you're a designer, aspiring beatmaker, researcher, or someone who just wants to experiment with the idea and give input - you can get involved!
 
-####Assembly Unit
+###Assembly Unit
 
-The Assembly Unit will be the crowd-sourced collective of beat makers. If you're interested in gettin down with the team, you can submit a request to join the Rhyme by Design Slack team!
+The _Assembly Unit_ will be the crowd-sourced collective of beat makers. If you're interested in gettin down with the team, you can submit a request to join the Rhyme by Design Slack team!
 
 <div class="contact-form-section">
   <form id="contactform" method="POST">

@@ -168,6 +168,7 @@
 .contact-form-section {
     margin-top: 2em;
     padding: 2em;
+    background: $lightgrey;
 }
  
  .color-banner {
@@ -221,6 +222,15 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 }
 
 
+.thank-you-images {
+    padding: 2em 0 0 0;
+    img {
+        display: inline-block;
+        width: 50px;
+    }
+}
+
+
 /**
  * Site footer
  */
@@ -261,13 +271,13 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
     margin-top: 0;
     img {
         width: 25px;
-        padding: 5px;
+        margin-right: 1em;
     }
 }
 
 .footer-icon {
     display: inline;
-    margin: 0 3px 0 3px;
+    margin-right: 1em;
 }
 
 .footer-col-wrapper {
